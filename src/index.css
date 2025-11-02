@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your colors */
+  --color-primary: #f7ba34;
+  --color-secondary: #69a79c;
+  --color-light: #f7f7f7;
+  --color-dark: #333333;
+  --color-dark2: #999999;
+  
+  /* Container settings */
+  --container-center: true;
+  --container-padding: 1rem;
+  --container-padding-sm: 2rem;
+  --container-padding-lg: 4rem;
+  --container-padding-xl: 5rem;
+  --container-padding-2xl: 6rem;
+
+
+}
+
+@layer utilities{
+  .drop-shadow {
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
+  }
+}
