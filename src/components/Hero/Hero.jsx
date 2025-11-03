@@ -56,7 +56,7 @@ const Hero = () => {
             <motion.div
             variants={FadeUp(0.8)} 
             initial= "initial"
-            animate = "animate"
+            animate="initial"
             className="flex justify-center md:justify-start">
               <button className="primary-btn !flex items-center gap-2 group">
                 Get Started

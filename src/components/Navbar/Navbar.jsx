@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto py-10 flex justify-between items-center">
         {/* logo section */}
         <div>
-          <h1 className="font-bold text-2xl">The Coding Journey</h1>
+          <h1 className="font-bold text-2xl">Sourov's English Whisper </h1>
         </div>
         {/* Menu section */}
         <div className="hidden lg:block">
